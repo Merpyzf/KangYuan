@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+
+                    android:id="@+id/iv_show_shopping_good"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/two"
+                    android:transitionName="share"
+
+                    />
+
+                =
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/tv_show_shopping_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:padding="5dp"
+                        android:text="新鲜优陪"
+                        android:textSize="16sp"
+
+                        />
+
+                    <TextView
+
+                        android:id="@+id/tv_show_shopping_capacity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="200M"
+                        android:textSize="17sp"
+
+                        />
+
+                    <TextView
+
+                        android:id="@+id/tv_show_shopping_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:padding="5dp"
+                        android:text="每日送"
+                        android:textSize="14sp"
+
+                        />
+
+                    <TextView
+
+                        android:id="@+id/tv_show_hot_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="从2017-03-18到2017-04-30"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="12sp"
+
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/tv_show_shopping_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:padding="5dp"
+                        android:text="￥4.80"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"
+
+                        />
+
+                    <TextView
+
+                        android:id="@+id/tv_show_shopping_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="*2"
+                        android:textSize="16sp"
+
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#ABABAB"
+
+                />
+
+            <TextView
+
+                android:id="@+id/tv_show_shopping_all_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:padding="5dp"
+                android:text="总数量: 88 份"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+
+                />
+
+            <TextView
+
+                android:id="@+id/tv_show_shopping_all_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="总金额:422.20"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

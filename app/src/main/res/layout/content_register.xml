@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/view_title_bar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EFEFF1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/register_tv_username"
+                    style="@style/TextViewStyle"
+                    android:text="用户名"
+                    />
+
+                <EditText
+                    android:id="@+id/register_edit_username"
+                    style="@style/EditTextStyle"
+                    />
+
+                <TextView
+                    android:id="@+id/register_tv_email"
+                    style="@style/TextViewStyle"
+                    android:text="电子邮箱"
+                    />
+
+                <EditText
+                    android:id="@+id/register_edit_email"
+                    style="@style/EditTextStyle"
+                    />
+
+                <TextView
+                    android:id="@+id/register_tv_pass"
+                    style="@style/TextViewStyle"
+                    android:text="设置密码"
+                    />
+
+                <EditText
+                    android:id="@+id/register_edit_pass"
+                    style="@style/EditTextStyle"
+                    android:inputType="textPassword"
+                    />
+
+                <TextView
+                    android:id="@+id/register_tv_repass"
+                    style="@style/TextViewStyle"
+                    android:text="重复密码"
+                    />
+
+                <EditText
+                    android:id="@+id/register_edit_repass"
+                    style="@style/EditTextStyle"
+                    android:inputType="textPassword"
+                    />
+
+                <TextView
+                    android:id="@+id/register_tv_birthday"
+                    style="@style/TextViewStyle"
+                    android:text="生日"
+                    />
+
+                <EditText
+                    android:id="@+id/register_edit_birthday"
+                    style="@style/EditTextStyle"
+                    />
+
+                <TextView
+                    android:id="@+id/register_tv_address"
+                    style="@style/TextViewStyle"
+                    android:text="联系地址"
+                    />
+
+                <EditText
+                    android:id="@+id/register_edit_address"
+                    style="@style/EditTextStyle"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_btn"
+                    android:text="确定修改"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>
